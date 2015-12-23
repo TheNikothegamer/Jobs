@@ -12,17 +12,17 @@
 
 Jobs:
   # must be one word
-  Woodcutter:
+  Lumberjack:
     # full name of the job (displayed when browsing a job, used when joining and leaving)
     # also can be used as a prefix for the user's name if the option is enabled.
     # Shown as a prefix only when the user has 1 job.
     #
     # NOTE: Must be 1 word
-    fullname: Woodcutter
+    fullname: Lumberjack
     # Shortened version of the name of the job. Used as a prefix when the user has more 
     # than 1 job
-    shortname: W
-    description: Earns money felling and planting trees  
+    shortname: L
+    description: Tjen penge ved at plante & fælde træer  
     # The colour of the name, for a full list of supported colours, go to the message config.
     ChatColour: GREEN
     # Option to let you choose what kind of prefix this job adds to your name.
@@ -131,7 +131,7 @@ Jobs:
   Miner:
     fullname: Miner
     shortname: M
-    description: Earns money mining minerals and ores.
+    description: Tjen penge ved at mine mineraler og ore.
     ChatColour: DARK_GRAY
     chat-display: full
     #max-level: 10
@@ -181,10 +181,10 @@ Jobs:
       Player:
         income: 7.5
         experience: 7.5
-  Builder:
-    fullname: Builder
+  Bygger:
+    fullname: Bygger
     shortname: B
-    description: Earns money for building structures.
+    description: Tjen penge ved at bygge bygninger.
     ChatColour: WHITE
     chat-display: full
     #max-level: 10
@@ -251,10 +251,10 @@ Jobs:
       Player:
         income: 7.5
         experience: 7.5
-  Digger:
-    fullname: Digger
-    shortname: D
-    description: Earns money for terraforming the world.
+  Graver:
+    fullname: Graver
+    shortname: G
+    description: Tjen penge ved at grave.
     ChatColour: GOLD
     chat-display: full
     #max-level: 10
@@ -289,7 +289,7 @@ Jobs:
   Farmer:
     fullname: Farmer
     shortname: Fa
-    description: Earns money farming crops.
+    description: Tjen penge ved at farme.
     ChatColour: BLUE
     chat-display: full
     #max-level: 10
@@ -315,10 +315,10 @@ Jobs:
       Player:
         income: 7.5
         experience: 7.5
-  Hunter:
-    fullname: Hunter
+  Jæger:
+    fullname: Jæger
     shortname: H
-    description: Earns money killing animals and monsters.
+    description: Tjen penge ved at dræbe dyr & monstrer.
     ChatColour: RED
     chat-display: full
     #max-level: 10
@@ -357,10 +357,10 @@ Jobs:
       Player:
         income: 7.5
         experience: 7.5
-  Fisherman:
-    fullname: Fisherman
+  Fisker:
+    fullname: Fisker
     shortname: Fi
-    description: Earns money from fishing.
+    description: Tjen penge ved at fiske.
     ChatColour: AQUA
     chat-display: full
     #max-level: 10
@@ -376,10 +376,10 @@ Jobs:
       Player:
         income: 7.5
         experience: 7.5
-  Weaponsmith:
-    fullname: Weaponsmith
+  Smed:
+    fullname: Smed
     shortname: W
-    description: Earns money from crafting and repairing weapons.
+    description: Tjen penge ved at lave & reperer Våben & Armor.
     ChatColour: DARK_PURPLE
     chat-display: full
     #max-level: 10
@@ -420,10 +420,10 @@ Jobs:
       GOLD_INGOT:
         income: 2.0
         experience: 2.0
-  Brewer:
-    fullname: Brewer
+  Brygger:
+    fullname: Brygger
     shortname: Br
-    description: Earns money brewing potions.
+    description: Tjen penge ved at brygge potions.
     ChatColour: LIGHT_PURPLE
     chat-display: full
     leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
@@ -463,7 +463,7 @@ Jobs:
   Enchanter:
     fullname: Enchanter
     shortname: E
-    description: Earns money enchanting weapons.
+    description: Tjen penge ved at enchante Våben & Armor.
     ChatColour: DARK_BLUE
     chat-display: full
     #max-level: 10
